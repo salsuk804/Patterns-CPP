@@ -1,0 +1,26 @@
+//output: 
+//
+//*****
+//****
+//***
+//**
+//*
+
+
+
+#include <iostream>
+#include<fstream>
+using namespace std;
+
+int main()
+{
+    for (int i = 5; i >=1; i--) {
+
+        for (int a = 1; a <= i; a++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
